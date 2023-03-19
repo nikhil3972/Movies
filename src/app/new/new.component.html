@@ -1,4 +1,5 @@
-<div class="container mt-4">
+<div  style="background-color:rgb(188, 196, 188)">
+  <div class="container">
     <h3 class="text-center">{{header}}</h3>
        <div class="row mt-3">
            <div class="col-3" *ngFor="let info of newMovie">
@@ -18,7 +19,7 @@
                          <p>Released date : {{info.release_date}}</p>
                        </div>
                      </div>
-                   <a href="#" class="btn btn-outline-danger">Watch Now</a>
+                   <a href={{info.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
                </div>
                <br>
            </div>
@@ -44,12 +45,15 @@
             <p>Released date : {{newInfo.release_date}}</p>
           </div>
         </div>
-      <a href="#" class="btn btn-outline-danger">Watch Now</a>
+      <a href={{newInfo.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
       </div>
     </div>
   </div>
   <button class="btn btn-dark mb-3" (click)="readNewData()" [hidden]="!check">See More</button>
 </div>
+</div>
+
+
 
 
    

@@ -31,20 +31,20 @@ export class AllMovieListService {
     {
       id : 19,
       img : "../../assets/movie_9.jfif",
-      name : "America's Got Talent",
-      type : "TV Show",
-      description : "Amateur performers present their singing, dancing, comedy and novelty acts to celebrity judges and a nationwide audience in order to advance in the competition and win a huge prize.",
-      release_date : "4 June 2019",
+      name : "Oblivion",
+      type : "Movie",
+      description : "Jack Harper, a drone repairman stationed on Earth that has been ravaged by war with extraterrestrials, questions his identity after rescuing the woman who keeps appearing in his dreams.",
+      release_date : "12 April 2013",
       link : "https://www.youtube.com/watch?v=ArCi4zGSYHU"
     },
     {
 
       id : 20,
       img : "../../assets/movie_6.jpg",
-      name : "Indian Premier League",
-      type : "League",
-      description : "The Indian Premier League is a men's T20 franchise cricket league in India. It is annually contested by ten teams based in seven cities and three states. The league was founded by the Board of Control for Cricket in India in 2007. Brijesh Patel is the incumbent chairman of IPL.",
-      release_date : "2008",
+      name : "Bolee",
+      type : "Movie",
+      description : "A young man who strongly believes in justice invites trouble for himself and his loved ones when he clashes with a corrupt politician and his henchmen.",
+      release_date : "30 November 2014",
       link : "https://www.youtube.com/watch?v=9tjJGVLk02c"
     },
   ]
@@ -53,19 +53,19 @@ export class AllMovieListService {
     {
       id : 29,
       img : "../../assets/popular_9.jfif",
-      name : "America's Got Talent",
-      type : "TV Show",
-      description : "Amateur performers present their singing, dancing, comedy and novelty acts to celebrity judges and a nationwide audience in order to advance in the competition and win a huge prize.",
-      release_date : "4 June 2019",
+      name : "ATP Cup",
+      type : "World Cup",
+      description : "The ATP Cup was an international outdoor hard court men's tennis team tournament, which ran from 2020 to 2022. The tournament was played across one or three Australian cities over ten days in the lead up to the Australian Open, and featured teams from 12, 16 or 24 countries.",
+      release_date : "15 November 2018",
       link : "https://www.youtube.com/watch?v=YbpkvRBAc3Q"
     },
     {
       id : 30,
       img : "../../assets/popular_10.jfif",
-      name : "Indian Premier League",
-      type : "League",
-      description : "The Indian Premier League is a men's T20 franchise cricket league in India. It is annually contested by ten teams based in seven cities and three states. The league was founded by the Board of Control for Cricket in India in 2007. Brijesh Patel is the incumbent chairman of IPL.",
-      release_date : "2008",
+      name : "Predator",
+      type : "Movie",
+      description : "Predator is a 1987 American science fiction action film directed by John McTiernan and written by brothers Jim and John Thomas. It is the first installment in the Predator franchise.",
+      release_date : "20 June 1987",
       link : "https://www.youtube.com/watch?v=mvTVOHHSTFc"
     },
   ]
@@ -83,12 +83,13 @@ export class AllMovieListService {
     {
       id : 40,
       img : "../../assets/new_10.jpg",
-      name : "Indian Premier League",
-      type : "League",
-      description : "The Indian Premier League is a men's T20 franchise cricket league in India. It is annually contested by ten teams based in seven cities and three states. The league was founded by the Board of Control for Cricket in India in 2007. Brijesh Patel is the incumbent chairman of IPL.",
-      release_date : "2008",
+      name : "Beuty & Beast",
+      type : "TV Show",
+      description : "Belle, a village girl, embarks on a journey to save her father from a creature that has locked him in his dungeon. Eventually, she learns that the creature is an enchanted prince who has been cursed.",
+      release_date : "17 March 2017",
       link : "https://www.youtube.com/watch?v=K6LO-bz1Wc4"
     },
+    
   ]
 
   constructor() { }
@@ -150,6 +151,15 @@ export class AllMovieListService {
       description : "Love Yourself is a kiss-off to a narcissistic ex-lover who did the protagonist wrong, with Bieber singing in a snappy tone while criticizing a girl for loving herself too much.",
       release_date : "2015",
       link : "https://www.youtube.com/watch?v=oyEuk8j8imI"
+    },
+    {
+      id : 55,
+      img : "../../assets/movie_9.jfif",
+      name : "America's Got Talent",
+      type : "TV Show",
+      description : "Amateur performers present their singing, dancing, comedy and novelty acts to celebrity judges and a nationwide audience in order to advance in the competition and win a huge prize.",
+      release_date : "4 June 2019",
+      link : "https://www.youtube.com/watch?v=ArCi4zGSYHU"
     },
   ]
 

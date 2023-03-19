@@ -5,10 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
-import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { FooterComponent } from './footer/footer.component';
 import { TvshowComponent } from './tvshow/tvshow.component';
 import { MoviesComponent } from './movies/movies.component';
@@ -22,10 +19,7 @@ import { HistoryComponent } from './history/history.component';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    AboutComponent,
-    ContactComponent,
     LoginComponent,
-    RegisterComponent,
     FooterComponent,
     TvshowComponent,
     MoviesComponent,

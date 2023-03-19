@@ -1,23 +1,8 @@
-<!-- <nav class="navbar navbar-light bg-primary">
-  <div class="container-fluid">
-    <a class="navbar-brand mx-2" href="#" routerLink="/">
-      <img src="../../assets/logo.gif" alt="" width="30" height="30" class="d-inline-block align-text-top">
-      <span class="mx-2">Hollywood</span>
-    </a>
-    <form class="d-flex mx-4">
-      <input class="form-control me-3" type="search" placeholder="Search Movie" aria-label="Search">
-      <a routerLink="/login">
-        <button class="btn btn-success" type="submit">Login</button>
-      </a>
-    </form>
-  </div>
-</nav> -->
-
 <nav class="navbar navbar-expand-lg navbar-light bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand mx-2" routerLink="/">
+    <a class="navbar-brand mx-2" routerLink="/home">
       <img src="../../assets/logo.gif" alt="" width="30" height="30" class="d-inline-block align-text-top">
-      <span class="mx-2">Hollywood</span>
+      <span class="mx-2 text-white">Hollywood</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/">
+          <a class="nav-link active" aria-current="page" routerLink="/home">
             <button class="btn btn-warning">Home</button>
           </a>
         </li>
@@ -49,17 +34,8 @@
             <button class="btn btn-warning">New</button>
           </a>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/about">
-            <button class="btn btn-warning">About</button>
-          </a>
-        </li>
-
-
       </ul>
       <form class="d-flex mx-4">
-        <!-- <input class="form-control me-3" type="search" placeholder="Search Movie" aria-label="Search"> -->
         <a routerLink="/history">
           <button class="btn btn-danger" type="submit">History</button>
         </a>

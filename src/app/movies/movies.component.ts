@@ -14,66 +14,66 @@ export class MoviesComponent {
   movieMovie = [
     {
       img : "../../assets/movie_1.jpg",
-      name : "Poochta Hai Bharat",
-      type : "News",
-      description : "The anchor invites a panel of politicians, social activists and experts in different fields to discuss, debate and analyse the issues plaguing the country.",
-      release_date : "5 August 2022",
+      name : "Kick",
+      type : "Movie",
+      description : "Kick is a 2014 Indian Hindi-language action comedy film produced and directed by Sajid Nadiadwala in his directorial debut under the Nadiadwala Grandson.",
+      release_date : "25 July 2014",
       link : "https://www.youtube.com/watch?v=G0JWw7OKbGA"
     },
     {
       img : "../../assets/movie_4.jpg",
-      name : "Superstar Singer",
-      type : "TV Show",
-      description : "Children from across India are mentored and judged by famous playback singers from the Hindi film industry. They compete against each other in various rounds to win the coveted title and prize.",
-      release_date : "29 June 2019",
+      name : "Surya the Fighter",
+      type : "Movie",
+      description : "Surya (Allu Arjun) is a short tempered army soldier who almost loses his job due to an impulsive decision he takes.",
+      release_date : "25 May 2018",
       link : "https://www.youtube.com/watch?v=XjTqJ8Gn434"
     },
     {
       img : "../../assets/movie_7.jfif",
-      name : "Bigg Boss",
-      type : "TV Show",
-      description : "Salman Khan returns to turn the tables on the housemates in their own game and add twists during their rollercoaster journey in the BB House.",
-      release_date : "3 November 2006",
+      name : "Jaani Dushman",
+      type : "Movie",
+      description : "On his wedding day, Jwala Prasad's bride mixes poison in his milk. After being cheated, he turns into a monster and seeks revenge by abducting and killing brides.",
+      release_date : "2 May 1979",
       link : "https://www.youtube.com/watch?v=fzfGdsNBVNg"
     },
     {
       img : "../../assets/movie_10.jpg",
-      name : "Love Yourself",
-      type : "Music",
-      description : "Love Yourself is a kiss-off to a narcissistic ex-lover who did the protagonist wrong, with Bieber singing in a snappy tone while criticizing a girl for loving herself too much.",
-      release_date : "2015",
+      name : "Joker",
+      type : "Movie",
+      description : "In this Arthur's character study story, we see him getting bullied by the hooligans for no reason and how he's lost in finding humanity.",
+      release_date : "23 March 2019",
       link : "https://www.youtube.com/watch?v=jhJxg7hsLJI"
     },
     {
       img : "../../assets/movie_3.jfif",
-      name : "Bhediya",
+      name : "Tezz",
       type : "Movie",
-      description : "Bhaskar finds himself changing after being bitten by a wolf in the forests of Arunachal. While Bhaskar begins to transform into a shape-shifting werewolf, he and his friends look for answers amid many twists, turns and laughs.",
-      release_date : "24 November 2022",
+      description : "Aakash plots a terrorist attack on a train in London. Arjun, a counter-terrorism officer on the brink of retirement, tries to negotiate with Aakash, while secretly trying to find his location.",
+      release_date : "26 April 2012",
       link : "https://www.youtube.com/watch?v=XZ9fJa_uMfA"
     },
     {
       img : "../../assets/movie_5.jpg",
-      name : "Avatar: The Way of Water",
+      name : "Sarileru Neekevvaru",
       type : "Movie",
-      description : "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.",
-      release_date : "16 December 2022",
+      description : "Ajay, an army official, sets out for Kurnool after being assigned a covert mission. Soon, he finds himself in the middle of uncovering a major scam.",
+      release_date : "10 January 2020",
       link : "https://www.youtube.com/watch?v=NJhN_bRWuS4"
     },
     {
       img : "../../assets/movie_8.jpg",
-      name : "Kaun Banega Crorepati",
-      type : "TV Show",
-      description : "The host asks a series of questions to several contestants to test their general knowledge and give them a chance to win a cash prize.",
-      release_date : "3 July 2000", 
+      name : "Robin Hood",
+      type : "Movie",
+      description : "Robin Hood is a legendary heroic outlaw originally depicted in English folklore and subsequently featured in literature and film. According to legend, he was a highly skilled archer and swordsman",
+      release_date : "21 November 2018", 
       link : "https://www.youtube.com/watch?v=b8n4WlM6sIs"
     },
     {
       img : "../../assets/movie_2.jfif",
-      name : "Man vs. Wild",
-      type : "TV Show",
-      description : "Host Bear Grylls tackles extreme challenges and navigates through remote locations around the world, sharing invaluable survival strategies along the way.",
-      release_date : "10 March 2006",
+      name : "Shaandaar",
+      type : "Movie",
+      description : "Jagjinder Joginder, a wedding planner, brings together the dysfunctional family of businessman Bipin Arora while making arrangements for his daughter's destination wedding in London.",
+      release_date : "22 October 2015",
       link : "https://www.youtube.com/watch?v=SeA_6pi_2SM"
     }
   ]

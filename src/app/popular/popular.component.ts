@@ -30,50 +30,50 @@ export class PopularComponent {
     },
     {
       img : "../../assets/popular_3.jfif",
-      name : "Bigg Boss",
-      type : "TV Show",
-      description : "Salman Khan returns to turn the tables on the housemates in their own game and add twists during their rollercoaster journey in the BB House.",
-      release_date : "3 November 2006",
+      name : "UEFA WOrld Cup",
+      type : "World Cup",
+      description : "As the number of final tournament slots for UEFA was increased from 13 to 16,[2] the qualification format was modified from the previous cycle.",
+      release_date : "28 February 2022",
       link : "https://www.youtube.com/watch?v=CyyhTyfjzAA"
     },
     {
       img : "../../assets/popular_4.jpg",
-      name : "Love Yourself",
-      type : "Music",
-      description : "Love Yourself is a kiss-off to a narcissistic ex-lover who did the protagonist wrong, with Bieber singing in a snappy tone while criticizing a girl for loving herself too much.",
-      release_date : "2015",
+      name : "Swarajyarakshak Sambhaji",
+      type : "TV Show",
+      description : "Sambhaji Maharaj, son of Chhatrapati Shivaji Maharaj, faces a lot of challenges during the wars between the Maratha kingdom and Mughal Empire.",
+      release_date : "29 February 2020",
       link : "https://www.youtube.com/watch?v=K-oyo9xyeeE"
     },
     {
       img : "../../assets/popular_5.jfif",
-      name : "Bhediya",
+      name : "English Vinglish",
       type : "Movie",
-      description : "Bhaskar finds himself changing after being bitten by a wolf in the forests of Arunachal. While Bhaskar begins to transform into a shape-shifting werewolf, he and his friends look for answers amid many twists, turns and laughs.",
-      release_date : "24 November 2022",
+      description : "A housewife and caterer, Shashi, is usually mocked by her family for not knowing English. Her attempt to learn the language helps her rediscover herself and reassert her value as a mother and a wife.",
+      release_date : "5 October 2012",
       link : "https://www.youtube.com/watch?v=SgrrvswbWsA"
     },
     {
       img : "../../assets/popular_6.jpg",
-      name : "Avatar: The Way of Water",
-      type : "Movie",
-      description : "Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.",
-      release_date : "16 December 2022",
+      name : "Veep",
+      type : "TV Show",
+      description : "Former Senator Selina Meyer gets an opportunity to serve as the Vice President of the United States. She tries to prevent various political uproars while juggling her public as well as private life.",
+      release_date : "22 April 2012",
       link : "https://www.youtube.com/watch?v=YtRVGdT6c3E"
     },
     {
       img : "../../assets/popular_7.jpg",
-      name : "Kaun Banega Crorepati",
-      type : "TV Show",
-      description : "The host asks a series of questions to several contestants to test their general knowledge and give them a chance to win a cash prize.",
-      release_date : "3 July 2000",
+      name : "K.G.F: Chapter 1",
+      type : "Movie",
+      description : "Rocky, a young man, seeks power and wealth in order to fulfil a promise to his dying mother. His quest takes him to Mumbai, where he gets involved with the notorious gold mafia.",
+      release_date : "21 December 2018",
       link : "https://www.youtube.com/watch?v=gKizDojsdvs&t=2519s"
     },
     {
       img : "../../assets/popular_8.jfif",
-      name : "Man vs. Wild",
+      name : "Oggy and the Cockroaches",
       type : "TV Show",
-      description : "Host Bear Grylls tackles extreme challenges and navigates through remote locations around the world, sharing invaluable survival strategies along the way.",
-      release_date : "10 March 2006",
+      description : "A lazy cat, Oggy, loves to watch TV and eat food. However, his flatmates, who happen to be three tiny cockroaches, enjoy attacking Oggy's refrigerator and creating chaos, which ruins his peace.",
+      release_date : "30 January 2019",
       link : "https://www.youtube.com/watch?v=63O7X1BrH7E"
     }
   ]

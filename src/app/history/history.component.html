@@ -1,18 +1,25 @@
-<div class="container mt-3">
+<div  style="background-color:rgb(188, 196, 188)">
+  <div class="container pt-3">
     <h3 class="text-center">History</h3>
-    <div class="row mt-3">
-        <div class="col-3" *ngFor="let info of allData; index as i">
-          <div class="card BGC_card" style="width: 18rem;">
-                <img src={{info.img}} class="card-img-top BGC_card_img" role="button" alt="...">
-                <a href={{info.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
-                <a class="btn btn-outline-danger" (click)="deleteCard(info.id)">Delete</a>
-          </div>
-          <br>
+      <div class="row mt-3">
+          <div class="col-3" *ngFor="let info of allData; index as i">
+            <div class="card BGC_card" style="width: 18rem;">
+                  <img src={{info.img}} class="card-img-top BGC_card_img" role="button" alt="...">
+                  <a href={{info.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
+                  <a class="btn btn-outline-danger" (click)="deleteCard(info.id)">Delete</a>
+            </div>
+            <br>
+        </div>
       </div>
     </div>
-  </div>
+    <div class="text-center mb-3">
+      <button class="btn btn-dark" (click)="readAllData()" [hidden]="!bHistory">View All History</button>
+    </div>
   
-  <div class="text-center mb-3">
-    <button class="btn btn-dark" (click)="readAllData()">View All History</button>
-  </div>
+    <div class="text-center pb-3">
+      <button class="btn btn-dark" (click)="addCard()" [hidden]="!bMostVisited">Most Visited</button>
+    </div>
+</div>
+  
+  
   

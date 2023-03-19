@@ -1,36 +1,70 @@
-  <div class="container my-4 py-2 px-3 border">
-    <h2 class="text-center">Login</h2>
-    <form [formGroup]="signInForm">
-  
-      <div class="mb-3">
-        <label for="Name" class="form-label">Username</label>
-        <input type="name" formControlName="name" class="form-control"/>
-      </div>
-      <div *ngIf="name!.invalid && (name!.dirty || name!.touched)">
-        <div *ngIf="name?.errors?.['required']" class="text-danger">
-          Name is required
-        </div>
-      </div>
-  
-      <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password"/>
-      </div>
-      <div *ngIf="password!.invalid && (password!.dirty || password!.touched)">
-        <div *ngIf="password?.errors?.['required']" class="text-danger">
-          Password is required
-        </div>
-      </div>
-  
-      <div class="text-center">
-        <a routerLink="/login">
-          <button type="submit" class="btn btn-primary" routerLink="/" (click)="loginUser()">Login</button>
-        </a>
+  <div class="container-fluid" style="background-color:rgb(188, 196, 188)">
 
-        <a routerLink="/register" class="mx-2">
-          <button type="submit" class="btn btn-primary" routerLink="/login">Register</button>
-        </a>
-      </div>
-    </form>
-  </div>
-  
+    <ng-container *ngIf="bLogin==true; then loginForm; else registerForm;"></ng-container>
+
+    <ng-template #loginForm>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h2 class="text-center mt-2 ">Login</h2>
+                  <form>
+                    <div class="form-outline mb-3">
+                      <label class="form-label">Username</label>
+                        <input type="text" class="form-control form-control-lg" [formControl]="loginUsername" required />
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <label class="form-label">Password</label>
+                        <input type="password" class="form-control form-control-lg" [formControl]="loginPassword"
+                            required />
+                    </div>
+
+                    <div class="text-center mb-3">
+                        <button type="submit" class="btn btn btn-success" (click)="loginDone()">Login</button>
+                        <button class="btn btn-primary mx-3" routerLink="/register" (click)="displayRegister()">Register</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template #registerForm>
+        <div class="row justify-content-center">
+            <div class="col-6">
+                <h2 class="text-center mt-2">Register</h2>
+                  <form>
+                  <div class="form-outline mb-3">
+                    <label class="form-label">Your Email</label>
+                      <input type="email" id="form3Example3cg" class="form-control form-control-lg"
+                          [formControl]="registerEmail" required />
+                  </div>
+
+                    <div class="form-outline mb-3">
+                      <label class="form-label">Username</label>
+                        <input type="text" id="form3Example1cg" class="form-control form-control-lg"
+                            [formControl]="registerUsername" required />
+                    </div>
+
+
+                    <div class="form-outline mb-3">
+                      <label class="form-label">Password</label>
+                        <input type="password" id="form3Example4cg" class="form-control form-control-lg"
+                            [formControl]="registerPassword" required />
+                    </div>
+
+                    <div class="form-outline mb-3">
+                      <label class="form-label">Confirm Password</label>
+                        <input type="password" id="form3Example4cdg" class="form-control form-control-lg"
+                            [formControl]="registerConfirm" required />
+                    </div>
+
+                    <div class="text-center mb-3">
+                      <button class="btn btn-primary mx-3" (click)="registerDone()">Register</button>
+                      <button type="submit" class="btn btn btn-success" (click)="displayLogin()" routerLink="/login">Login</button>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </ng-template>
+
+
+</div>

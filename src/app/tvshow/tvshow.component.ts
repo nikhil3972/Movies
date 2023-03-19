@@ -97,8 +97,4 @@ export class TvshowComponent {
     this.tvshowData = this.allMovieService.getAllTvShow();
     this.check = false;
   }
-
-  addToFavourite(){
-    alert("Hello");
-  }
 }
