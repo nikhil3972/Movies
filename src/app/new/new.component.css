@@ -1,0 +1,23 @@
+.BGC_card_img{
+    height: 13rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(31, 223, 166, 0.2);
+  }
+
+  img:hover {
+    transform: rotateZ(360deg);
+    transition: 3s;
+  }
+
+
+  
