@@ -6,6 +6,7 @@ import { AllMovieList } from './allMovieList';
 })
 export class AllMovieListService {
 
+  //Services
   tvshowArr : AllMovieList[] = [
     {
       id : 9,

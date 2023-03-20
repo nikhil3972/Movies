@@ -16,7 +16,8 @@ const routes: Routes = [
   {path : 'movies', component: MoviesComponent},
   {path: 'popular', component: PopularComponent},
   {path: 'new', component: NewComponent},
-  {path: 'history', component: HistoryComponent}
+  {path: 'history', component: HistoryComponent},
+  {path: "**", component: HomeComponent}
 ];
 
 @NgModule({

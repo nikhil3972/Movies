@@ -1,3 +1,4 @@
+<!-- Carousel -->
 <div style="background-color:rgb(188, 196, 188)">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -31,7 +32,7 @@
     <div class="container text-center">
         <h4>Trending Now</h4>
         <div class="row mt-2">
-          <div class="col-3 mb-3" *ngFor="let trendingInfo of trendingMovie">
+          <div class="col-3 mb-3" *ngFor="let trendingInfo of trendingMovie">             <!-- *ngFor for accessing data from array of objects -->
             <div class="card BGC_card" style="width: 18rem;">
               <img src={{trendingInfo.img}} class="card-img-top BGC_card_img" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" alt="...">
             <a href={{trendingInfo.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
@@ -41,7 +42,7 @@
     
         <h4>Top Rated</h4>
         <div class="row mt-2">
-          <div class="col-3 mb-3" *ngFor="let topRatedInfo of topRatedMovie">
+          <div class="col-3 mb-3" *ngFor="let topRatedInfo of topRatedMovie">               <!-- *ngFor for accessing data from array of objects -->
             <div class="card BGC_card" style="width: 18rem;">
               <img src={{topRatedInfo.img}} class="card-img-top BGC_card_img" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" alt="...">
             <a href={{topRatedInfo.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>

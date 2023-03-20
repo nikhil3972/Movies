@@ -17,6 +17,7 @@ export class HistoryComponent {
 
   allData : AllMovieList[] = [];
 
+  //Load all created data
   readAllData(){
     this.allData = this.allMovieService.getAll();
     this.bHistory = false;
@@ -30,12 +31,13 @@ export class HistoryComponent {
   release_date = "29 June 2019";
   link = "https://www.youtube.com/watch?v=M1kL3R10Bcs"
 
-
+  //Add one card
   addCard(){
     this.allData.push(new AllMovieList(this.id, this.img, this.name, this.description, this.type, this.release_date, this.link));
     this.bMostVisited = false;
   }
 
+  //Delete card by its id
   deleteCard(idNo : number){
     this.allData = this.allData.filter((value) => value.id!=idNo) 
     if(this.allData.length>0){

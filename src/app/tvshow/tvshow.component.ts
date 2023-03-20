@@ -9,7 +9,7 @@ import { AllMovieList } from '../allMovieList';
 })
 export class TvshowComponent {
 
-  header = "TV Show";
+  header = "TV Show";      //One way data binding
 
   tvshowMovie = [
     {

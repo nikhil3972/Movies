@@ -1,15 +1,15 @@
   <div class="container-fluid" style="background-color:rgb(188, 196, 188)">
 
-    <ng-container *ngIf="bLogin==true; then loginForm; else registerForm;"></ng-container>
+    <ng-container *ngIf="bLogin==true; then loginForm; else registerForm;"></ng-container>       <!-- *ngIf for chekcing condition -->
 
     <ng-template #loginForm>
         <div class="row justify-content-center">
             <div class="col-6">
                 <h2 class="text-center mt-2 ">Login</h2>
-                  <form>
+                  <form (submit)="loginDone()">
                     <div class="form-outline mb-3">
                       <label class="form-label">Username</label>
-                        <input type="text" class="form-control form-control-lg" [formControl]="loginUsername" required />
+                        <input type="text" class="form-control form-control-lg" [formControl]="loginUsername" required />     <!-- Form control for controlling element of form -->
                     </div>
 
                     <div class="form-outline mb-4">
@@ -19,8 +19,8 @@
                     </div>
 
                     <div class="text-center mb-3">
-                        <button type="submit" class="btn btn btn-success" (click)="loginDone()">Login</button>
-                        <button class="btn btn-primary mx-3" routerLink="/register" (click)="displayRegister()">Register</button>
+                        <button type="submit" class="btn btn btn-success">Login</button>                 <!-- Event Binding for login and register -->
+                        <button class="btn btn-primary mx-3" (click)="displayRegister()">Register</button>
                     </div>
                 </form>
             </div>
@@ -31,7 +31,7 @@
         <div class="row justify-content-center">
             <div class="col-6">
                 <h2 class="text-center mt-2">Register</h2>
-                  <form>
+                  <form (submit)="registerDone()">
                   <div class="form-outline mb-3">
                     <label class="form-label">Your Email</label>
                       <input type="email" id="form3Example3cg" class="form-control form-control-lg"
@@ -58,7 +58,7 @@
                     </div>
 
                     <div class="text-center mb-3">
-                      <button class="btn btn-primary mx-3" (click)="registerDone()">Register</button>
+                      <button class="btn btn-primary mx-3">Register</button>        <!-- Event Binding for login and register -->
                       <button type="submit" class="btn btn btn-success" (click)="displayLogin()" routerLink="/login">Login</button>
                   </div>
                 </form>

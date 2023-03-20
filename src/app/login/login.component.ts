@@ -21,12 +21,14 @@ export class LoginComponent {
     this.bLogin = false;
   }
 
+  //User can login by this information
   loginUser = [
     new Login('nikhil123@gmail.com', 'nikhil', 'niks123'),
   ];
   loginUsername = new FormControl('');
   loginPassword = new FormControl('');
 
+  //For login of user
   loginDone() {
     let obj: any = this.loginUser.find(o => o.username === this.loginUsername.value);
 
@@ -35,7 +37,7 @@ export class LoginComponent {
       this.router.navigate(['/home']);
     }
     else {
-      alert("Invalid Crediantials");
+      alert("Please Enter Correct Details");
     }
   }
 
@@ -43,13 +45,15 @@ export class LoginComponent {
   registerUsername = new FormControl('');
   registerPassword = new FormControl('');
   registerConfirm = new FormControl('');
+
+  ////For register of user
   registerDone() {
     if (this.registerUsername.value != '' && this.registerEmail.value != '' && this.registerPassword.value != '' && this.registerPassword.value === this.registerConfirm.value) {
       this.loginUser.push(new Login(this.registerEmail.value, this.registerUsername.value, this.registerPassword.value));
       alert("Register Successfully");
     }
     else {
-      alert("Please Enter Valid Info");
+      alert("Please Enter Correct Details");
     }
   }
 }
