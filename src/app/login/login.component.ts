@@ -23,7 +23,7 @@ export class LoginComponent {
 
   //User can login by this information
   loginUser = [
-    new Login('nikhil123@gmail.com', 'nikhil', 'niks123'),
+    new Login('nikhil123@gmail.com', 'admin', 'admin'),
   ];
   loginUsername = new FormControl('');
   loginPassword = new FormControl('');
