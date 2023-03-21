@@ -1,9 +1,9 @@
-<div  style="background-color:rgb(188, 196, 188)">
-  <div class="container pt-3">
+<div>
+  <div class="container-fluid pt-3">
     <h3 class="text-center">History</h3>
       <div class="row mt-3">
           <div class="col-3" *ngFor="let info of allData; index as i">      <!-- *ngFor for accessing data from array of objects -->
-            <div class="card BGC_card" style="width: 18rem;">
+            <div class="card BGC_card" style="width: 25rem;">
                   <img src={{info.img}} class="card-img-top BGC_card_img" role="button" alt="...">
                   <a href={{info.link}} target="_blank" class="btn btn-outline-danger">Watch Now</a>
                   <a class="btn btn-outline-danger" (click)="deleteCard(info.id)">Delete</a>
